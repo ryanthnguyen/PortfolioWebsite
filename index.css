@@ -1,0 +1,12 @@
+body {
+  background: black;
+}
+
+#text {
+  font-size: 32px;
+  border-bottom: 32px;
+}
+
+#brand {
+  font-size: 32px;
+}
