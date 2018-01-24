@@ -1,12 +1,33 @@
-body {
-  background: black;
+html, body {
+  background: #06beb6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  font-family: "Lato";
+  min-height: 100%;
 }
+
 
 #text {
   font-size: 32px;
-  border-bottom: 32px;
+  color: white;
 }
 
 #brand {
   font-size: 32px;
+  display: hidden !important;
+}
+
+nav li a {
+  border-bottom: 3px solid transparent;
+}
+
+a.nav-link:hover {
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15%;
+  color: white;
 }
