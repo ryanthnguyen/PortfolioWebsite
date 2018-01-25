@@ -1,10 +1,12 @@
 html, body {
-  background: #06beb6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  font-family: "Lato";
+  margin: 0% !im;
+  padding: 0% !important;
+  height: 100% !important;
   min-height: 100%;
+}
+
+nav {
+  font-family: "Lato";
 }
 
 
@@ -20,6 +22,7 @@ html, body {
 
 nav li a {
   border-bottom: 3px solid transparent;
+  letter-spacing: 1px;
 }
 
 a.nav-link:hover {
@@ -28,6 +31,50 @@ a.nav-link:hover {
 
 h1 {
   text-align: center;
+  text-transform: capitalize;
   margin-top: 15%;
   color: white;
+  font-family: sans-serif;
+  text-shadow: 3px 2px gray;
+  letter-spacing: 3px;
+}
+
+.top {
+  background: #06beb6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  height: 100% !important;
+  width: 100% !important;
+  margin: auto;
+}
+
+.AboutSection {
+  height: 50%;
+  background: white;
+}
+
+.paragraph {
+  display: inline;
+}
+
+img {
+  margin-top: 3% !important;
+  height: 240px;
+  width: 240px;
+  float: right;
+}
+
+#header {
+  font-size: 45px;
+  font-family: sans-serif;
+  text-shadow: 3px 2px gray;
+  letter-spacing: 3px;
+}
+
+p {
+  float: left;
+  width: 50%;
+  font-size: 32px;
+  font-family: sans-serif;
 }
