@@ -7,45 +7,101 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+
     <link rel="stylesheet" href="animate.css">
     <title>Home Page</title>
   </head>
   <body>
-    <section class="top">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-indigo">
-      <div class="container mr-5">
-        <a class="navbar-brand" href="#" id="brand"></a>
-        <ul class="navbar-nav">
-          <li class="navbar-item mr-5">
-            <a class="nav-link animated zoomIn" href="#" id="text">About</a>
-          </li>
-          <li class="navbar-item mr-5">
-            <a class="nav-link animated zoomIn" href="#" id="text">Bio</a>
-          </li>
-          <li class="navbar-item mr-5">
-            <a class="nav-link animated zoomIn" href="#" id="text">Projects</a>
-          </li>
-          <li class="navbar-item mr-5">
-            <a class="nav-link animated zoomIn" href="#" id="text">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-indigo">
+        <div class="container mr-5">
+          <a class="navbar-brand" href="#" id="brand"></a>
+          <ul class="navbar-nav">
+            <li class="navbar-item mr-5">
+              <a class="nav-link animated zoomIn" href="#" id="text">About</a>
+            </li>
+            <li class="navbar-item mr-5">
+              <a class="nav-link animated zoomIn" href="#" id="text">Bio</a>
+            </li>
+            <li class="navbar-item mr-5">
+              <a class="nav-link animated zoomIn" href="#" id="text">Projects</a>
+            </li>
+            <li class="navbar-item mr-5">
+              <a class="nav-link animated zoomIn" href="#" id="text">Contact</a>
+            </li>
+          </ul>
+      </nav>
+    </header>
+    <section class="intro mt-10">
+      <h1 class="animated zoomIn">Ryan Nguyen <br/>Computer Science Student</h1>
+    </section>
+    <section class="about mt-30">
       <div>
-        <h1 class="animated zoomIn">Ryan Nguyen</br>Computer Science Student</h1>
-      </div>
-    </section>
-    <section class="AboutSection">
-      <div class="AboutSection">
         <h1 class="text-center mt-5 text-warning" id="header">About</h1>
-        <p class="text-secondary mt-5 ml-5">I am a Junior at the University of memphis, I have a passion for coding when I started out in my senior year. Whenever I have free time, I like to explore subjects such as virtual reality, app development, and full stack
+      </div>
+    <div class="picture mt-5" id="">
+      <img src="ProfilePic.jpg"/>
+    </div>
+    <div class="Introductionn">
+      <p class="text-secondary mt-5 ml-5 mr-5">I am a Junior at the University of memphis, I have a passion for coding when I started out in my senior year. Whenever I have free time, I like to explore subjects such as virtual reality, app development, and full stack
+    </div>
+    <div class="card-deck mt-5 mr-0">
+            <div class="card mb-5">
+                <div class="card-body">
+                  <i class="fa fa-code fa-5x mb-3" aria-hidden="true"></i>
+                    <h4 class="card-title text-center mb-3">Skills</h4>
+                    <ul class="list-group mb-5">
+                      <li class="list-group-item">Java</li>
+                      <li class="list-group-item">Python</li>
+                      <li class="list-group-item">JavaScript</li>
+                      <li class="list-group-item">HTML</li>
+                      <li class="list-group-item">CSS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                    <i class="fa fa-book fa-5x mb-3" aria-hidden="true" id="book"></i>
+                    <h4 class="card-title text-center mb-3">Education</h4>
+                    <ul class="list-group mb-5">
+                      <li class="list-group-item">University of Memphis</li>
+                      <li class="list-group-item">Overall GPA: 3.40</li>
+                      <li class="list-group-item">Major GPA: 3.0</li>
+                      <li class="list-group-item">2015 Fall Dean's List</li>
+                      <li class="list-group-item">2017 Fall Dean's List</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <div class="card-body">
+                  <i class="fa fa-futbol-o fa-5x mb-3" aria-hidden="true"></i>
+                    <h4 class="card-title text-center mb-3">Activities</h4>
+                    <ul class="list-group mb-5">
+                      <li class="list-group-item">My List Item One</li>
+                      <li class="list-group-item">My List Item Two</li>
+                      <li class="list-group-item">My List Item Three</li>
+                      <li class="list-group-item">My List Item Four</li>
+                      <li class="list-group-item">My List Item Five</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+  </section>
+
+  <section class="Projects">
+      <div class="d-flex flex-row justify-content-center row-hl">
+        <div class="p-4 item-hl mr-5">Project 1</div>
+        <div class="p-4 item-hl mr-5">Project 2</div>
+        <div class="p-4 item-hl mr-5">Project 3</div>
       </div>
     </section>
+
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-</html>
+  <html>
