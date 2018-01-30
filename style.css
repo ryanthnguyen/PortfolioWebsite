@@ -23,6 +23,15 @@ nav {
   display: hidden !important;
 }
 
+#header {
+  font-size: 45px;
+  font-family: sans-serif;
+  text-shadow: 3px 2px gray;
+  letter-spacing: 3px;
+  font-size: 34px !important;
+  margin-top: 5px;
+}
+
 nav li a {
   border-bottom: 3px solid transparent;
   letter-spacing: 1px;
@@ -68,7 +77,14 @@ p {
   border: none;
 }
 
+.card-title {
+  color: #6c757d !important;
+}
+
+
+
 .list-group-item {
+  background: #708090;
   border: none;
   margin-left: 50px;
   margin-right: 50px;
@@ -76,4 +92,12 @@ p {
 
 #book {
   color: #8B4513;
+}
+
+li {
+  color: #000000;
+}
+
+#intro {
+  line-height: 160%;
 }

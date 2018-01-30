@@ -70,6 +70,7 @@ h1 {
 
 #header {
   font-size: 45px;
+  display: inline-block;
   font-family: sans-serif;
   text-shadow: 3px 2px gray;
   letter-spacing: 3px;
