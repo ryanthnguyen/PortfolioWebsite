@@ -20,13 +20,13 @@
           <a class="navbar-brand" href="#" id="brand"></a>
           <ul class="navbar-nav">
             <li class="navbar-item mr-5">
-              <a class="nav-link animated zoomIn" href="#" id="text">About</a>
+              <a class="nav-link animated zoomIn scrollTo" data-scrollTo="homeloc" href="#" id="text">Home</a>
             </li>
             <li class="navbar-item mr-5">
-              <a class="nav-link animated zoomIn" href="#" id="text">Work Experience</a>
+              <a class="nav-link animated zoomIn scrollTo" data-scrollTo="aboutloc" href="#" id="text">About</a>
             </li>
             <li class="navbar-item mr-5">
-              <a class="nav-link animated zoomIn" href="#" id="text">Projects</a>
+              <a class="nav-link animated zoomIn scrollTo" data-scrollTo="projectloc" href="#" id="text">Projects</a>
             </li>
             <li class="navbar-item mr-5">
               <a class="nav-link animated zoomIn" href="#" id="text">Contact</a>
@@ -34,10 +34,10 @@
           </ul>
       </nav>
     </header>
-    <section class="intro mt-10">
+    <section class="intro mt-10" id="homeloc">
       <h1 class="animated zoomIn">Ryan Nguyen <br/>Computer Science Student</h1>
     </section>
-    <section class="about">
+    <section class="about" id="aboutloc">
       <div id="header">
         <h1 class="text-center text-warning pt-5">About</h1>
       </div>
@@ -45,7 +45,7 @@
       <img src="ProfilePic.jpg"/>
     </div>
     <div class="Introduction">
-      <p class="text-secondary mt-5 ml-5 mr-5" id="intro">Hello, I am a Junior at the University of memphis. I fell in love with programming when I took a programming class in my senior year of high school. Ever since then, I have been coding ever since. Whenever I have free time, I like to explore subjects such as game development, app development, and front-end development.
+      <p class="text-secondary mt-5 ml-5 mr-5" id="intro">Hello, I am a Junior at the University of Memphis. I fell in love with programming when I took a programming class in my senior year of high school. Ever since then, I have been coding ever since. Whenever I have free time, I like to explore subjects such as game development, app development, and front-end development.
     </div>
     <div class="card-deck mt-5 mr-0">
             <div class="card mb-5">
@@ -69,8 +69,7 @@
                       <li class="list-group-item">University of Memphis</li>
                       <li class="list-group-item">Overall GPA: 3.40</li>
                       <li class="list-group-item">Major GPA: 3.0</li>
-                      <li class="list-group-item">2015 Fall Dean's List</li>
-                      <li class="list-group-item">2017 Fall Dean's List</li>
+                      <li class="list-group-item">Dean's List 2015, 2017</li>
                     </ul>
                 </div>
             </div>
@@ -89,18 +88,37 @@
         </div>
   </section>
 
-  <section class="Projects">
-      <div class="d-flex flex-row justify-content-center row-hl">
-        <div class="p-4 item-hl mr-5">Project 1</div>
-        <div class="p-4 item-hl mr-5">Project 2</div>
-        <div class="p-4 item-hl mr-5">Project 3</div>
+  <section class="Projects" id="projectloc">
+    <h1 class="project_title mt-5"> Projects</h1>
+    <div class="row">
+      <div class="col">
+    <div class="card" id="minesweeper_card">
+      <img class="card-img-top" src="minesweeper.png" alt="Card image cap" id="minesweeper_image">
+      <div class="card-body">
+        <h4 class="card-title"> Minesweeper Game</h4>
+        <p class="card-text" id="minesweeper_text"> Created minesweeper game with friend using java OOP concepts</p>
       </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" id="zombie_card">
+      <img class="card-img-top" src="UnityCardImage.jpg" alt="Card image cap" id="zombie_image">
+      <div class="card-body">
+        <h4 class="card-title"> Zombie Runner</h4>
+        <p class="card-text" id="zombie_text"> Player tries to run away from zombie in large landscape using Unity assets</p>
+      </div>
+    </div>
+    </div>
+  </div>
     </section>
 
     <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+  <script src="smooth-scrolling.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-  <html>
+</body>
+<html>

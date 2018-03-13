@@ -1,4 +1,4 @@
-html,  body {
+html,  body, .row {
   height: 50%;
   width: 100%;
   margin: 0;
@@ -100,4 +100,58 @@ li {
 
 #intro {
   line-height: 160%;
+}
+
+.card-title {
+  font-size: 35px;
+  margin-top: 1%;
+}
+
+#minesweeper_text{
+  font-size: 24px !important;
+  margin-top: 5%;
+}
+
+#minesweeper_image {
+  height: 200px !important;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#minesweeper_card {
+  width: 500px;
+  margin-left: 30%;
+  margin-top: 10%;
+  border-radius: 25px;
+}
+
+#zombie_text {
+  font-size: 24px !important;
+}
+
+#zombie_image {
+  height: 200px !important;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#zombie_card {
+  width: 500px;
+  margin-left: 15%;
+  margin-top: 10%;
+  border-radius: 25px;
+}
+
+.project_title {
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+#project_card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
