@@ -3,7 +3,7 @@ $('a.scrollTo').on('click',function(){
   if (scrollTo === 'homeloc') {
     console.log('homeloc activated');
     $('body,html').animate({
-      "scrollTop": $('#'+scrollTo).offset().top-600},1000);
+      "scrollTop": $('#'+scrollTo).offset().top-1000},1000);
   } else {
     console.log('not homeloc');
     $('body,html').animate({
