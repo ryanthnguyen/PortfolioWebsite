@@ -67,7 +67,7 @@ img {
 
 p {
   font-size: 32px;
-  font-family: sans-serif;
+  font-family: sans-serif !important;
 
 }
 
@@ -121,7 +121,7 @@ li {
 
 #minesweeper_card {
   width: 500px;
-  margin-left: 30%;
+  margin-left: 15%;
   margin-top: 10%;
   border-radius: 25px;
 }
@@ -154,4 +154,76 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact {
+  background-color: #F0F0F0;
+  height: 200%;
+  margin-top: 10%;
+}
+
+#unordered-list{
+  width: 130%;
+  margin-left: 200%;
+  margin-right: 200%;
+  margin-top: 10%;
+  background-color: #F0F0F0;
+}
+
+#target1, #target2, #target3 {
+  border: 1px solid black;
+  background-color: #F0F0F0;
+}
+#contact-row{
+  background-color: #F0F0F0;
+}
+
+#btn1, #btn2, #btn3 {
+  width: 120%;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  height: 100px;
+  margin-top: 20px;
+}
+
+
+.copyright {
+  color: #D3D3D3;
+  display: inline-block;
+  font-size: 15px;
+  padding-top: 40px;
+  margin-left: 15%;
+}
+
+.media {
+  display: block;
+  list-style-type: none;
+  margin-right: 25px;
+  margin-top: 100px;
+}
+
+.icon-list {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 20%;
+  float: right;
+  padding-top: 25px;
+}
+
+.icon-list2 {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 20px;
+  padding-top: 25px;
+  float: right;
+}
+
+li #icon-style:hover {
+  color: #adad85;
+}
+
+#icon-style {
+  color: #D3D3D3;
 }
