@@ -4,7 +4,12 @@ $('a.scrollTo').on('click',function(){
     console.log('homeloc activated');
     $('body,html').animate({
       "scrollTop": $('#'+scrollTo).offset().top-1000},1000);
-  } else {
+  } else if (scrollTo == 'projectloc') {
+    console.log("projectloc activated");
+    $('body,html').animate({
+      "scrollTop": $('#'+scrollTo).offset().top-100},1000);
+    }
+   else {
     console.log('not homeloc');
     $('body,html').animate({
       "scrollTop": $('#'+scrollTo).offset().top-40},1000);
