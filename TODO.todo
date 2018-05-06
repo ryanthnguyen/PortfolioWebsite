@@ -1,3 +1,7 @@
 project:
     Task: 
-        ☐ @critical need to fix margin issue for card group
+        ✔ @critical need to fix margin issue for card group @done (5/5/2018, 1:29:15 AM)
+        ☐ @critical need to implement responsive screen for project cards 
+        ☐ Need to add image for card projects
+          
+
